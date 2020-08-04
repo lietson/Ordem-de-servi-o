@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand logotipo"><img src="img/Transfer_branco_logo.png" alt="Logo Transfer"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="">Ordens de serviço</a></li>
+                    <li><a href="">Clientes</a></li>
+                    <li><a href="">Funcionarios</a></li>
+                    <li><a href="">Serviçoes</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Minha Conta
+                            <span class="caret"></span>
+                        </a>
+                        <div class="dropdown-menu perfil">
+                            <div class="col-sm-4 hidden-xs">
+                                <img src="https://api.adorable.io/avatars/100/watchuru.png" alt="Avatar" class="img-responsive img-rounded">
+                            </div>
+                            <ul class="list-unstyled col-sm-8">
+                                <li>Lietson dos santos</li>
+                                <li><a href="">Alterar Perfil</a></li>
+                                <li><a href="">Sair</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="">Inicío</a></li>
+            <li><a href="">Ordens de Serviço</a></li>
+            <li class="active">Pesquisa</li>
+        </ol>
+
+        <div class="row cabecalho">
+            <div class="col-xs-12 col-md-6">
+                <h1>Ordens de Serviço</h1>
+            </div>
+            <div class="col-xs-12 col-md-4 col-md-offset-2 busca">
+                <div class="input-group">
+                    <input type="search" name="busca" class="form-control" placeholder="Perquisar por nome do cliente">
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-dafault">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="table-responsive">
+        <table class=" dados-os table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Cod.</th>
+                    <th>Data</th>
+                    <th>Cliente</th>
+                    <th>Valor</th>
+                    <th>Funcionario</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>213312</td>
+                    <td>30/04/2020</td>
+                    <td>Lietson dos santos</td>
+                    <td>10.000</td>
+                    <td>wime</td>
+                    <td><span class="label label-primary">Em andamento</span></td>
+                    <td class="text-center">
+                        <a href="" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
+                        <a href="" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+                        <a href="" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>213312</td>
+                    <td>30/04/2020</td>
+                    <td>Lietson dos santos</td>
+                    <td>10.000</td>
+                    <td>wime</td>
+                    <td><span class="label label-danger">Em andamento</span></td>
+                    <td class="text-center">
+                        <a href="" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
+                        <a href="" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+                        <a href="" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>213312</td>
+                    <td>30/04/2020</td>
+                    <td>Lietson dos santos</td>
+                    <td>10.000</td>
+                    <td>wime</td>
+                    <td><span class="label label-warning">Em andamento</span></td>
+                    <td class="text-center">
+                        <a href="" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
+                        <a href="" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+                        <a href="" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>213312</td>
+                    <td>30/04/2020</td>
+                    <td>Lietson dos santos</td>
+                    <td>10.000</td>
+                    <td>wime</td>
+                    <td><span class="label label-success">Em andamento</span></td>
+                    <td class="text-center">
+                        <a href="" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
+                        <a href="" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+                        <a href="" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>213312</td>
+                    <td>30/04/2020</td>
+                    <td>Lietson dos santos</td>
+                    <td>10.000</td>
+                    <td>wime</td>
+                    <td><span class="label label-default">Em andamento</span></td>
+                    <td class="text-center">
+                        <a href="" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
+                        <a href="" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+                        <a href="" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer class="row">
+        <div class="col-sm-6">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#novaOS">Nova Ordem de Serviço</button>
+        </div>
+        <div class="col-sm-6 paginacao text-right">
+            <ul class="pagination">
+                <li class="disabled"><a href="#"><span>«</span></a></li>
+                <li class="active"><a href="#"><span>1</span></a></li>
+                <li><a href="#"><span>2</span></a></li>
+                <li><a href="#"><span>3</span></a></li>
+                <li><a href="#"><span>4</span></a></li>
+                <li><a href="#"><span>5</span></a></li>
+                <li><a href="#"><span>»</span></a></li>
+            </ul>
+        </div>
+    </footer>
+    </div>
+
+    <div class="modal fade" id="novaOS">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" data-dismiss="modal" class="close">
+                        <span>&times;</span>
+                    </button>
+                    <h4 class="modal-title">Nova Ordem de Serviço</h4>
+                </div>
+                <div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="form-group">
+                                    <label>Código da OS</label>
+                                    <p class="form-control-static">315121</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-sm-5">
+                                    <label for="cliente">Cliente</label>
+                                    <select name="cliente" id="Servicos" class="form-control">
+                                        <option value="">Selecione...</option>
+                                        <option value="1">Frodo Bolseiro</option>
+                                        <option value="2">Grandalf Cinzeiro</option>
+                                        <option value="3">Sauron de Mordor</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-sm-7">
+                                <label for="Servicos">Serviços</label>
+                                    <select name="cliente" id="Servicos" class="form-control">
+                                        <option value="">Selecione...</option>
+                                        <option value="1">Ajuste da Data/Hora</option>
+                                        <option value="2">Conserto de Engrenagem</option>
+                                        <option value="3">Troca de Bateria</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-xs-12">
+                                <label for="obsevacao">Observação</label>
+                                <textarea name="mensagem" id="obsevacao"class="form-control" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-sm-4">
+                                    <label for="valor">Valor</label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon">Kwz$</div>
+                                        <input type="number" name="valor" id="valor" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="reset" class="btn btn-danger">Limpar</button>
+                            <button type="submit" class="btn btn-primary">Salvar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

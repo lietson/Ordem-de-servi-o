@@ -1,0 +1,62 @@
+.logotipo{
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.logotipo img{
+    height: 30px;
+}
+
+.perfil{
+    padding: 10px;
+    width: 300px;
+}
+
+.perfil li:first-child {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.cabecalho h1{
+    margin: 0px;
+    font-size: 3em;
+}
+
+.busca{
+    margin-top: 12px;
+}
+
+.dados-os {
+    margin-top: 30px;
+}
+
+.paginacao .pagination {
+    margin: 0;
+}
+
+@media (max-width: 767px){
+    .perfil{
+        color: #ffffff;
+    }
+
+    .perfil a{
+        color: #9d9d9d;
+        display: block;
+        padding: 5px 0;
+    }
+
+    .perfil a:hover{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .paginacao{
+        text-align: center;
+    }
+
+    .paginacao .pagination{
+        margin-top: 20px;
+    }
+}
+

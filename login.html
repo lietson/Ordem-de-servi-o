@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    
+    <div class="login-form col-xs-10  col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4">
+        <header>
+            <h1><img class="img-responsive" src="img/Transfer_branco_logo.png" alt="logo Transfer"></h1>
+            <h2 class="text-center">Entre com o seu usuário e senha</h2>
+        </header>
+        <form>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </div>
+                    <input type="text" name="usario" class="form-control" placeholder="Usuário">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-option-horizontal"></span>
+                    </div>
+                    <input type="password" name="senha" class="form-control" placeholder="Senha">
+                </div>
+            </div>
+
+            <footer>
+                <div class="checkbox pull-left">
+                    <label for="lembrar"><input type="checkbox" name="lembrar" id="lembrar">Lembrar de mim</label>
+                </div>
+                <button type="submit" class="btn btn-primary pull-right">Entrar</button>
+            </footer>
+        </form>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
