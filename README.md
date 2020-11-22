@@ -9,9 +9,9 @@ Uma Site Fictício de ordem de serviço
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [HTML5]
-- [CSS3]
-- [Bootstrap]
+- HTML5
+- CSS3
+- Bootstrap
 
 Feito com ❤️ por Lietson dos santos 👋🏽 Entre em contato!
 
